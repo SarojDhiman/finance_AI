@@ -1,0 +1,109 @@
+{
+  "session_id": "eef657fb-a260-4e8f-89d9-bcd8bbe2a2db",
+  "user_id": "streamlit_user_20250918_122041",
+  "file_processed": "temp\\20250918_122041_875355_test_financial_data.xlsx",
+  "processing_start": "2025-09-18T12:20:41.905696",
+  "processing_end": "2025-09-18T12:20:41.952854",
+  "total_duration_ms": 47.158002853393555,
+  "status": "completed",
+  "input_file_hash": "377f9120b823d55c91971c47cb66dc4f1a36df8cc9b79cb9ba42402cd259efba",
+  "output_files": [
+    "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\output\\20250918_122041_875355_test_financial_data_20250918_122041.html"
+  ],
+  "processing_steps": [
+    {
+      "step_name": "security_scan",
+      "timestamp": "2025-09-18T12:20:41.906708",
+      "status": "completed",
+      "duration_ms": 0.998,
+      "details": {
+        "file_path": "temp\\20250918_122041_875355_test_financial_data.xlsx",
+        "safe": true,
+        "file_size": 9474,
+        "file_extension": ".xlsx",
+        "file_hash": "377f9120b823d55c91971c47cb66dc4f1a36df8cc9b79cb9ba42402cd259efba",
+        "errors": [],
+        "warnings": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "data_ingestion",
+      "timestamp": "2025-09-18T12:20:41.907706",
+      "status": "completed",
+      "duration_ms": 17.108999999999998,
+      "details": {
+        "rows": 50,
+        "columns": 9,
+        "column_names": [
+          "OperatingExpenses",
+          "EBITDA",
+          "Depreciation",
+          "EBIT",
+          "Interest",
+          "Taxes",
+          "NetProfit",
+          "ExpenseBreakdown",
+          "ValidationStatus"
+        ],
+        "file_type": "excel"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "validation",
+      "timestamp": "2025-09-18T12:20:41.924815",
+      "status": "completed",
+      "duration_ms": 3.044,
+      "details": {},
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "template_processing",
+      "timestamp": "2025-09-18T12:20:41.927859",
+      "status": "completed",
+      "duration_ms": 22.088,
+      "details": {
+        "template_used": "profit_loss.md"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "output_generation",
+      "timestamp": "2025-09-18T12:20:41.949947",
+      "status": "completed",
+      "duration_ms": 1.906,
+      "details": {
+        "formats_generated": [
+          "html"
+        ],
+        "files_created": 1
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "validation_results": {
+    "is_valid": true,
+    "total_records": 50,
+    "total_debits": 0.0,
+    "total_credits": 0.0,
+    "balance_difference": 0.0
+  },
+  "template_used": "profit_loss.md",
+  "errors": [],
+  "warnings": [],
+  "metadata": {
+    "system_version": "1.0",
+    "start_timestamp": 1758178241.905696
+  },
+  "audit_metadata": {
+    "audit_version": "1.0",
+    "saved_at": "2025-09-18T12:20:41.952854",
+    "file_path": "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\audit\\audit_eef657fb-a260-4e8f-89d9-bcd8bbe2a2db_20250918_122041.json"
+  }
+}

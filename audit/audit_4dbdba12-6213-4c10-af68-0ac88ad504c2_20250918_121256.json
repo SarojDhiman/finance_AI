@@ -1,0 +1,109 @@
+{
+  "session_id": "4dbdba12-6213-4c10-af68-0ac88ad504c2",
+  "user_id": "streamlit_user_20250918_121255",
+  "file_processed": "temp\\20250918_121255_784042_balance_sheet_service_solutions_llc.xlsx",
+  "processing_start": "2025-09-18T12:12:55.814133",
+  "processing_end": "2025-09-18T12:12:56.000332",
+  "total_duration_ms": 186.19918823242188,
+  "status": "completed",
+  "input_file_hash": "362fb1379404e5727aebce40a7cae952eb4dcdd016aa6a723409108a1a3176a4",
+  "output_files": [
+    "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\output\\20250918_121255_784042_balance_sheet_service_solutions_llc_20250918_121255.md",
+    "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\output\\20250918_121255_784042_balance_sheet_service_solutions_llc_20250918_121255.html",
+    "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\output\\20250918_121255_784042_balance_sheet_service_solutions_llc_20250918_121255_package.zip"
+  ],
+  "processing_steps": [
+    {
+      "step_name": "security_scan",
+      "timestamp": "2025-09-18T12:12:55.814133",
+      "status": "completed",
+      "duration_ms": 0.0,
+      "details": {
+        "file_path": "temp\\20250918_121255_784042_balance_sheet_service_solutions_llc.xlsx",
+        "safe": true,
+        "file_size": 5631,
+        "file_extension": ".xlsx",
+        "file_hash": "362fb1379404e5727aebce40a7cae952eb4dcdd016aa6a723409108a1a3176a4",
+        "errors": [],
+        "warnings": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "data_ingestion",
+      "timestamp": "2025-09-18T12:12:55.814133",
+      "status": "completed",
+      "duration_ms": 89.18900000000001,
+      "details": {
+        "rows": 16,
+        "columns": 6,
+        "column_names": [
+          "Account",
+          "Account_Type",
+          "Debit",
+          "Credit",
+          "Balance",
+          "Company"
+        ],
+        "file_type": "excel"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "validation",
+      "timestamp": "2025-09-18T12:12:55.903322",
+      "status": "completed",
+      "duration_ms": 11.798,
+      "details": {},
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "template_processing",
+      "timestamp": "2025-09-18T12:12:55.915120",
+      "status": "completed",
+      "duration_ms": 23.476,
+      "details": {
+        "template_used": "balance_sheet.md"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "output_generation",
+      "timestamp": "2025-09-18T12:12:55.938596",
+      "status": "completed",
+      "duration_ms": 61.736,
+      "details": {
+        "formats_generated": [
+          "md",
+          "html"
+        ],
+        "files_created": 3
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "validation_results": {
+    "is_valid": false,
+    "total_records": 16,
+    "total_debits": 1175000.0,
+    "total_credits": 1255000.0,
+    "balance_difference": 80000.0
+  },
+  "template_used": "balance_sheet.md",
+  "errors": [],
+  "warnings": [],
+  "metadata": {
+    "system_version": "1.0",
+    "start_timestamp": 1758177775.814133
+  },
+  "audit_metadata": {
+    "audit_version": "1.0",
+    "saved_at": "2025-09-18T12:12:56.000332",
+    "file_path": "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\audit\\audit_4dbdba12-6213-4c10-af68-0ac88ad504c2_20250918_121256.json"
+  }
+}

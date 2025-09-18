@@ -1,0 +1,59 @@
+Account_Name,Account_Type,Debit,Credit,Balance,Description
+Cash - Operating Account,Assets,111995.05,0.0,111995.05,Assets account for Mixed Data Corp
+Cash - Savings Account,Assets,85381.34,0.0,85381.34,Assets account for Mixed Data Corp
+Petty Cash,Assets,93699.51,0.0,93699.51,Assets account for Mixed Data Corp
+Accounts Receivable - Trade,Assets,89724.01,0.0,89724.01,Assets account for Mixed Data Corp
+Accounts Receivable - Other,Assets,57068.89,0.0,57068.89,Assets account for Mixed Data Corp
+Inventory - Raw Materials,Assets,116452.21,0.0,116452.21,Assets account for Mixed Data Corp
+Inventory - Work in Process,Assets,230986.14,0.0,230986.14,Assets account for Mixed Data Corp
+Inventory - Finished Goods,Assets,19102.14,0.0,19102.14,Assets account for Mixed Data Corp
+Prepaid Insurance,Assets,12491.19,0.0,12491.19,Assets account for Mixed Data Corp
+Prepaid Rent,Assets,5554.26,0.0,5554.26,Assets account for Mixed Data Corp
+Office Supplies,Assets,5032.15,0.0,5032.15,Assets account for Mixed Data Corp
+Equipment - Office,Assets,434957.26,0.0,434957.26,Assets account for Mixed Data Corp
+Equipment - Manufacturing,Assets,366646.04,0.0,366646.04,Assets account for Mixed Data Corp
+Vehicles,Assets,47943.21,0.0,47943.21,Assets account for Mixed Data Corp
+Building,Assets,94025.37,0.0,94025.37,Assets account for Mixed Data Corp
+Accounts Payable - Trade,Liabilities,0.0,51703.51,-51703.51,Liabilities account for Mixed Data Corp
+Accounts Payable - Other,Liabilities,0.0,49979.82,-49979.82,Liabilities account for Mixed Data Corp
+Accrued Salaries Payable,Liabilities,0.0,21454.18,-21454.18,Liabilities account for Mixed Data Corp
+Accrued Interest Payable,Liabilities,0.0,46215.91,-46215.91,Liabilities account for Mixed Data Corp
+Accrued Taxes Payable,Liabilities,0.0,42857.95,-42857.95,Liabilities account for Mixed Data Corp
+Notes Payable - Short Term,Liabilities,0.0,63505.76,-63505.76,Liabilities account for Mixed Data Corp
+Credit Line Payable,Liabilities,0.0,65333.9,-65333.9,Liabilities account for Mixed Data Corp
+Mortgage Payable,Liabilities,0.0,9303.88,-9303.88,Liabilities account for Mixed Data Corp
+Bonds Payable,Liabilities,0.0,40588.2,-40588.2,Liabilities account for Mixed Data Corp
+Long Term Debt,Liabilities,0.0,257826.77,-257826.77,Liabilities account for Mixed Data Corp
+Deferred Revenue,Liabilities,0.0,26150.54,-26150.54,Liabilities account for Mixed Data Corp
+Warranty Liability,Liabilities,0.0,43111.51,-43111.51,Liabilities account for Mixed Data Corp
+Employee Benefits Payable,Liabilities,0.0,67575.9,-67575.9,Liabilities account for Mixed Data Corp
+Common Stock,Equity,0.0,74440.16,-74440.16,Equity account for Mixed Data Corp
+Preferred Stock,Equity,0.0,60585.31,-60585.31,Equity account for Mixed Data Corp
+Paid-in Capital in Excess of Par,Equity,0.0,99938.7,-99938.7,Equity account for Mixed Data Corp
+Retained Earnings,Equity,0.0,13711.58,-13711.58,Equity account for Mixed Data Corp
+Treasury Stock,Equity,0.0,137866.34,-137866.34,Equity account for Mixed Data Corp
+Accumulated Other Comprehensive Income,Equity,0.0,141632.23,-141632.23,Equity account for Mixed Data Corp
+Sales Revenue - Product A,Revenue,0.0,617926.76,-617926.76,Revenue account for Mixed Data Corp
+Sales Revenue - Product B,Revenue,0.0,449352.93,-449352.93,Revenue account for Mixed Data Corp
+Sales Revenue - Services,Revenue,0.0,678959.4,-678959.4,Revenue account for Mixed Data Corp
+Interest Income,Revenue,0.0,23454.39,-23454.39,Revenue account for Mixed Data Corp
+Dividend Income,Revenue,0.0,27735.22,-27735.22,Revenue account for Mixed Data Corp
+Rental Income,Revenue,0.0,47131.78,-47131.78,Revenue account for Mixed Data Corp
+Gain on Sale of Assets,Revenue,0.0,19919.03,-19919.03,Revenue account for Mixed Data Corp
+Other Income,Revenue,0.0,48098.34,-48098.34,Revenue account for Mixed Data Corp
+Cost of Goods Sold,Expenses,743210.39,0.0,743210.39,Expenses account for Mixed Data Corp
+Salaries and Wages,Expenses,162232.28,0.0,162232.28,Expenses account for Mixed Data Corp
+Employee Benefits,Expenses,8797.41,0.0,8797.41,Expenses account for Mixed Data Corp
+Rent Expense,Expenses,11876.24,0.0,11876.24,Expenses account for Mixed Data Corp
+Utilities Expense,Expenses,3785.74,0.0,3785.74,Expenses account for Mixed Data Corp
+Insurance Expense,Expenses,11255.41,0.0,11255.41,Expenses account for Mixed Data Corp
+Office Supplies Expense,Expenses,68934.66,0.0,68934.66,Expenses account for Mixed Data Corp
+Advertising Expense,Expenses,8976.49,0.0,8976.49,Expenses account for Mixed Data Corp
+Travel Expense,Expenses,33259.61,0.0,33259.61,Expenses account for Mixed Data Corp
+Professional Fees,Expenses,84797.78,0.0,84797.78,Expenses account for Mixed Data Corp
+Depreciation Expense,Expenses,4280.65,0.0,4280.65,Expenses account for Mixed Data Corp
+Interest Expense,Expenses,81817.91,0.0,81817.91,Expenses account for Mixed Data Corp
+Bad Debt Expense,Expenses,29621.77,0.0,29621.77,Expenses account for Mixed Data Corp
+Repairs and Maintenance,Expenses,13580.15,0.0,13580.15,Expenses account for Mixed Data Corp
+Telephone Expense,Expenses,70280.24,0.0,70280.24,Expenses account for Mixed Data Corp
+Miscellaneous Assets,Assets,118594.5,0.0,118594.5,System balancing entry

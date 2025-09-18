@@ -1,0 +1,106 @@
+{
+  "session_id": "7de29bf9-2140-490c-a80e-ccb3b96a2bbe",
+  "user_id": "streamlit_user_20250918_122239",
+  "file_processed": "temp\\20250918_122239_813800_trial_balance_techstart_inc_25_accounts.xlsx",
+  "processing_start": "2025-09-18T12:22:39.833212",
+  "processing_end": "2025-09-18T12:22:39.861200",
+  "total_duration_ms": 27.988195419311523,
+  "status": "completed",
+  "input_file_hash": "8cc5b1410fcb7491bc352338171f34682aee7a891786226da4e83bb15f125d1c",
+  "output_files": [
+    "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\output\\20250918_122239_813800_trial_balance_techstart_inc_25_accounts_20250918_122239.html"
+  ],
+  "processing_steps": [
+    {
+      "step_name": "security_scan",
+      "timestamp": "2025-09-18T12:22:39.833212",
+      "status": "completed",
+      "duration_ms": 1.004,
+      "details": {
+        "file_path": "temp\\20250918_122239_813800_trial_balance_techstart_inc_25_accounts.xlsx",
+        "safe": true,
+        "file_size": 6163,
+        "file_extension": ".xlsx",
+        "file_hash": "8cc5b1410fcb7491bc352338171f34682aee7a891786226da4e83bb15f125d1c",
+        "errors": [],
+        "warnings": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "data_ingestion",
+      "timestamp": "2025-09-18T12:22:39.834216",
+      "status": "completed",
+      "duration_ms": 12.092,
+      "details": {
+        "rows": 26,
+        "columns": 6,
+        "column_names": [
+          "Account_Name",
+          "Account_Type",
+          "Debit",
+          "Credit",
+          "Balance",
+          "Description"
+        ],
+        "file_type": "excel"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "validation",
+      "timestamp": "2025-09-18T12:22:39.846308",
+      "status": "completed",
+      "duration_ms": 2.912,
+      "details": {},
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "template_processing",
+      "timestamp": "2025-09-18T12:22:39.849220",
+      "status": "completed",
+      "duration_ms": 11.979999999999999,
+      "details": {
+        "template_used": "balance_sheet.md"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "output_generation",
+      "timestamp": "2025-09-18T12:22:39.861200",
+      "status": "completed",
+      "duration_ms": 0.0,
+      "details": {
+        "formats_generated": [
+          "html"
+        ],
+        "files_created": 1
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "validation_results": {
+    "is_valid": true,
+    "total_records": 26,
+    "total_debits": 1847287.14,
+    "total_credits": 1847287.14,
+    "balance_difference": 0.0
+  },
+  "template_used": "balance_sheet.md",
+  "errors": [],
+  "warnings": [],
+  "metadata": {
+    "system_version": "1.0",
+    "start_timestamp": 1758178359.833212
+  },
+  "audit_metadata": {
+    "audit_version": "1.0",
+    "saved_at": "2025-09-18T12:22:39.861200",
+    "file_path": "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\audit\\audit_7de29bf9-2140-490c-a80e-ccb3b96a2bbe_20250918_122239.json"
+  }
+}

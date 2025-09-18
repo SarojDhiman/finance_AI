@@ -1,0 +1,109 @@
+{
+  "session_id": "6b6e24e5-0ad0-4ea6-838e-68a8e3ca703c",
+  "user_id": "streamlit_user_20250918_132451",
+  "file_processed": "temp\\20250918_132451_588875_income_statement_manufacturing_corp.xlsx",
+  "processing_start": "2025-09-18T13:24:51.620583",
+  "processing_end": "2025-09-18T13:24:51.791255",
+  "total_duration_ms": 170.67193984985352,
+  "status": "completed",
+  "input_file_hash": "85d51a8a99f5ae55096bf3466d5e96ff35842238a350d793dcdbebeb1d9b5d6a",
+  "output_files": [
+    "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\output\\20250918_132451_588875_income_statement_manufacturing_corp_20250918_132451.md",
+    "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\output\\20250918_132451_588875_income_statement_manufacturing_corp_20250918_132451.html",
+    "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\output\\20250918_132451_588875_income_statement_manufacturing_corp_20250918_132451_package.zip"
+  ],
+  "processing_steps": [
+    {
+      "step_name": "security_scan",
+      "timestamp": "2025-09-18T13:24:51.621592",
+      "status": "completed",
+      "duration_ms": 0.0,
+      "details": {
+        "file_path": "temp\\20250918_132451_588875_income_statement_manufacturing_corp.xlsx",
+        "safe": true,
+        "file_size": 5617,
+        "file_extension": ".xlsx",
+        "file_hash": "85d51a8a99f5ae55096bf3466d5e96ff35842238a350d793dcdbebeb1d9b5d6a",
+        "errors": [],
+        "warnings": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "data_ingestion",
+      "timestamp": "2025-09-18T13:24:51.621592",
+      "status": "completed",
+      "duration_ms": 86.873,
+      "details": {
+        "rows": 17,
+        "columns": 6,
+        "column_names": [
+          "Account_Name",
+          "Account_Type",
+          "Amount",
+          "Debit",
+          "Credit",
+          "Company"
+        ],
+        "file_type": "excel"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "validation",
+      "timestamp": "2025-09-18T13:24:51.708465",
+      "status": "completed",
+      "duration_ms": 17.697999999999997,
+      "details": {},
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "template_processing",
+      "timestamp": "2025-09-18T13:24:51.726163",
+      "status": "completed",
+      "duration_ms": 21.864,
+      "details": {
+        "template_used": "trial_balance.md"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "output_generation",
+      "timestamp": "2025-09-18T13:24:51.748027",
+      "status": "completed",
+      "duration_ms": 43.228,
+      "details": {
+        "formats_generated": [
+          "md",
+          "html"
+        ],
+        "files_created": 3
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "validation_results": {
+    "is_valid": false,
+    "total_records": 17,
+    "total_debits": 1636000.0,
+    "total_credits": 1770000.0,
+    "balance_difference": 134000.0
+  },
+  "template_used": "trial_balance.md",
+  "errors": [],
+  "warnings": [],
+  "metadata": {
+    "system_version": "1.0",
+    "start_timestamp": 1758182091.620583
+  },
+  "audit_metadata": {
+    "audit_version": "1.0",
+    "saved_at": "2025-09-18T13:24:51.791255",
+    "file_path": "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\audit\\audit_6b6e24e5-0ad0-4ea6-838e-68a8e3ca703c_20250918_132451.json"
+  }
+}

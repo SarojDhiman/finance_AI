@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-18T08:08:43.392295",
+    "version": "1.0",
+    "format": "financial_statement_json"
+  },
+  "financial_data": {
+    "company_name": "Your Company Name",
+    "date": "September 18, 2025",
+    "generation_date": "2025-09-18 08:08:43",
+    "total_accounts": 16,
+    "accounts": [
+      {
+        "name": "Cash and Cash Equivalents",
+        "type": "Asset",
+        "debit": 85000.0,
+        "credit": 0.0,
+        "balance": 85000.0
+      },
+      {
+        "name": "Accounts Receivable",
+        "type": "Asset",
+        "debit": 125000.0,
+        "credit": 0.0,
+        "balance": 125000.0
+      },
+      {
+        "name": "Inventory",
+        "type": "Asset",
+        "debit": 180000.0,
+        "credit": 0.0,
+        "balance": 180000.0
+      },
+      {
+        "name": "Prepaid Expenses",
+        "type": "Expense",
+        "debit": 15000.0,
+        "credit": 0.0,
+        "balance": 15000.0
+      },
+      {
+        "name": "Property Plant Equipment",
+        "type": "Asset",
+        "debit": 650000.0,
+        "credit": 0.0,
+        "balance": 650000.0
+      },
+      {
+        "name": "Accumulated Depreciation",
+        "type": "Unknown",
+        "debit": 0.0,
+        "credit": 180000.0,
+        "balance": -180000.0
+      },
+      {
+        "name": "Intangible Assets",
+        "type": "Asset",
+        "debit": 45000.0,
+        "credit": 0.0,
+        "balance": 45000.0
+      },
+      {
+        "name": "Investments",
+        "type": "Unknown",
+        "debit": 75000.0,
+        "credit": 0.0,
+        "balance": 75000.0
+      },
+      {
+        "name": "Accounts Payable",
+        "type": "Liability",
+        "debit": 0.0,
+        "credit": 95000.0,
+        "balance": -95000.0
+      },
+      {
+        "name": "Accrued Expenses",
+        "type": "Liability",
+        "debit": 0.0,
+        "credit": 25000.0,
+        "balance": -25000.0
+      },
+      {
+        "name": "Short Term Debt",
+        "type": "Liability",
+        "debit": 0.0,
+        "credit": 50000.0,
+        "balance": -50000.0
+      },
+      {
+        "name": "Current Portion of Long Term Debt",
+        "type": "Liability",
+        "debit": 0.0,
+        "credit": 30000.0,
+        "balance": -30000.0
+      },
+      {
+        "name": "Long Term Debt",
+        "type": "Liability",
+        "debit": 0.0,
+        "credit": 400000.0,
+        "balance": -400000.0
+      },
+      {
+        "name": "Deferred Tax Liability",
+        "type": "Liability",
+        "debit": 0.0,
+        "credit": 35000.0,
+        "balance": -35000.0
+      },
+      {
+        "name": "Common Stock",
+        "type": "Unknown",
+        "debit": 0.0,
+        "credit": 200000.0,
+        "balance": -200000.0
+      },
+      {
+        "name": "Retained Earnings",
+        "type": "Equity",
+        "debit": 0.0,
+        "credit": 240000.0,
+        "balance": -240000.0
+      }
+    ],
+    "total_debits": 1175000.0,
+    "total_credits": 1255000.0,
+    "balance_difference": 80000.0,
+    "balance_check": false,
+    "cash": 85000.0,
+    "accounts_receivable": 125000.0,
+    "inventory": 180000.0,
+    "other_expenses": -10000.0,
+    "accounts_payable": 95000.0,
+    "account_type_summary": {
+      "Asset": 5,
+      "Expense": 1,
+      "Unknown": 3,
+      "Liability": 6,
+      "Equity": 1
+    },
+    "total_current_assets": 390000.0,
+    "total_non_current_assets": 0,
+    "total_assets": 390000.0,
+    "total_current_liabilities": 95000.0,
+    "total_non_current_liabilities": 0,
+    "total_equity": 0,
+    "total_liab_equity": 95000.0
+  }
+}

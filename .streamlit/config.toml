@@ -1,0 +1,39 @@
+# Create this file as .streamlit/config.toml in your project root
+# This fixes common 403 errors with file uploads
+
+[server]
+# Allow larger file uploads (200MB)
+maxUploadSize = 200
+# Increase message size limit
+maxMessageSize = 200
+
+# Enable CORS for local development
+enableCORS = false
+enableXsrfProtection = false
+
+# Server configuration
+port = 8501
+address = "localhost"
+baseUrlPath = ""
+enableStaticServing = true
+
+[browser]
+# Disable gathering usage stats
+gatherUsageStats = false
+
+[client]
+# Show error details
+showErrorDetails = true
+
+# File watcher configuration
+[global]
+# Disable development mode features that might cause issues
+developmentMode = false
+
+# Set data directory
+dataDir = "./.streamlit"
+
+# Logging configuration  
+[logger]
+level = "info"
+enableLogging = true

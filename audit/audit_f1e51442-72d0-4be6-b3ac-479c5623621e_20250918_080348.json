@@ -1,0 +1,75 @@
+{
+  "session_id": "f1e51442-72d0-4be6-b3ac-479c5623621e",
+  "user_id": "demo_user",
+  "file_processed": "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\data\\sample\\balance_sheet_service_solutions_llc.xlsx",
+  "processing_start": "2025-09-18T08:03:48.597831",
+  "processing_end": "2025-09-18T08:03:48.611882",
+  "total_duration_ms": 14.050960540771484,
+  "status": "failed",
+  "input_file_hash": "9f1fdf61672e34de36321b6e964274e8e5ee9f1d14cace7c083b2bdc1084edcd",
+  "output_files": [],
+  "processing_steps": [
+    {
+      "step_name": "security_scan",
+      "timestamp": "2025-09-18T08:03:48.598423",
+      "status": "completed",
+      "duration_ms": 1.008,
+      "details": {
+        "file_path": "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\data\\sample\\balance_sheet_service_solutions_llc.xlsx",
+        "safe": true,
+        "file_size": 5649,
+        "file_extension": ".xlsx",
+        "file_hash": "9f1fdf61672e34de36321b6e964274e8e5ee9f1d14cace7c083b2bdc1084edcd",
+        "errors": [],
+        "warnings": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "data_ingestion",
+      "timestamp": "2025-09-18T08:03:48.599431",
+      "status": "completed",
+      "duration_ms": 8.867999999999999,
+      "details": {
+        "rows": 16,
+        "columns": 6,
+        "column_names": [
+          "Account",
+          "Account_Type",
+          "Debit",
+          "Credit",
+          "Balance",
+          "Company"
+        ],
+        "file_type": "excel"
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "step_name": "validation",
+      "timestamp": "2025-09-18T08:03:48.608299",
+      "status": "failed",
+      "duration_ms": 3.5829999999999997,
+      "details": {},
+      "errors": [
+        "Validation process failed: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+      ],
+      "warnings": []
+    }
+  ],
+  "validation_results": null,
+  "template_used": "",
+  "errors": [],
+  "warnings": [],
+  "metadata": {
+    "system_version": "1.0",
+    "start_timestamp": 1758162828.597831
+  },
+  "audit_metadata": {
+    "audit_version": "1.0",
+    "saved_at": "2025-09-18T08:03:48.611882",
+    "file_path": "C:\\Users\\Saroj Dhiman\\OneDrive\\Desktop\\done\\audit\\audit_f1e51442-72d0-4be6-b3ac-479c5623621e_20250918_080348.json"
+  }
+}

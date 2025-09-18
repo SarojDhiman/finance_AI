@@ -1,0 +1,234 @@
+2025-09-18 08:03:48,095 - financial_automation.main - INFO - Initializing Financial Statement Automation System...
+2025-09-18 08:03:48,095 - financial_automation.workflow - INFO - Financial Workflow System initializing...
+2025-09-18 08:03:48,095 - financial_automation.security - INFO - Encryption initialized successfully
+2025-09-18 08:03:48,095 - financial_automation.workflow - INFO - Security agent initialized
+2025-09-18 08:03:48,095 - financial_automation.workflow - INFO - Ingestion agent initialized
+2025-09-18 08:03:48,095 - financial_automation.workflow - INFO - Validation agent initialized
+2025-09-18 08:03:48,095 - financial_automation.template - INFO - Created template: balance_sheet.md
+2025-09-18 08:03:48,095 - financial_automation.template - INFO - Created template: profit_loss.md
+2025-09-18 08:03:48,095 - financial_automation.template - INFO - Created template: trial_balance.md
+2025-09-18 08:03:48,095 - financial_automation.template - INFO - Created template: cash_flow.md
+2025-09-18 08:03:48,109 - financial_automation.template - INFO - Template initialization complete - 4 templates available
+2025-09-18 08:03:48,109 - financial_automation.workflow - INFO - Template agent initialized
+2025-09-18 08:03:48,109 - financial_automation.workflow - INFO - Output agent initialized
+2025-09-18 08:03:48,109 - financial_automation.workflow - INFO - Audit agent initialized
+2025-09-18 08:03:48,109 - financial_automation.workflow - INFO - Workflow system initialization completed
+2025-09-18 08:03:48,110 - financial_automation.main - INFO - Workflow system initialized
+2025-09-18 08:03:48,111 - financial_automation.main - INFO - Data generator initialized
+2025-09-18 08:03:48,111 - financial_automation.main - INFO - System initialization completed successfully
+2025-09-18 08:03:48,114 - financial_automation.main - INFO - Creating sample datasets...
+2025-09-18 08:03:48,124 - financial_automation.data_generator - INFO - Generated trial balance with 26 accounts for TechStart Inc
+2025-09-18 08:03:48,162 - financial_automation.data_generator - INFO - Generated balance sheet data for TechStart Inc
+2025-09-18 08:03:48,196 - financial_automation.data_generator - INFO - Generated income statement data for TechStart Inc
+2025-09-18 08:03:48,219 - financial_automation.data_generator - INFO - Generated cash flow data for TechStart Inc
+2025-09-18 08:03:48,249 - financial_automation.data_generator - INFO - Generated trial balance with 45 accounts for Manufacturing Corp
+2025-09-18 08:03:48,271 - financial_automation.data_generator - INFO - Generated balance sheet data for Manufacturing Corp
+2025-09-18 08:03:48,297 - financial_automation.data_generator - INFO - Generated income statement data for Manufacturing Corp
+2025-09-18 08:03:48,318 - financial_automation.data_generator - INFO - Generated cash flow data for Manufacturing Corp
+2025-09-18 08:03:48,337 - financial_automation.data_generator - INFO - Generated trial balance with 66 accounts for Service Solutions LLC
+2025-09-18 08:03:48,371 - financial_automation.data_generator - INFO - Generated balance sheet data for Service Solutions LLC
+2025-09-18 08:03:48,398 - financial_automation.data_generator - INFO - Generated income statement data for Service Solutions LLC
+2025-09-18 08:03:48,418 - financial_automation.data_generator - INFO - Generated cash flow data for Service Solutions LLC
+2025-09-18 08:03:48,447 - financial_automation.data_generator - INFO - Generated trial balance with 58 accounts for Mixed Data Corp
+2025-09-18 08:03:48,468 - financial_automation.data_generator - INFO - Created 13 sample datasets
+2025-09-18 08:03:48,519 - financial_automation.audit - INFO - Audit session started: f325e0e3-1346-4cab-a1c3-ff57ee847195 for user: demo_user
+2025-09-18 08:03:48,519 - financial_automation.workflow - INFO - Starting workflow for file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_manufacturing_corp.xlsx (Session: f325e0e3-1346-4cab-a1c3-ff57ee847195)
+2025-09-18 08:03:48,519 - financial_automation.security - INFO - File security scan passed: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_manufacturing_corp.xlsx
+2025-09-18 08:03:48,528 - financial_automation.ingestion - INFO - Processing file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_manufacturing_corp.xlsx
+2025-09-18 08:03:48,528 - financial_automation.ingestion - INFO - Extracting data from Excel file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_manufacturing_corp.xlsx
+2025-09-18 08:03:48,552 - financial_automation.ingestion - INFO - Successfully extracted 16 rows from Excel file
+2025-09-18 08:03:48,552 - financial_automation.validation - INFO - Normalizing financial data
+2025-09-18 08:03:48,562 - financial_automation.validation - INFO - Column mapping applied: {'Account': 'account_name', 'Account_Type': 'account_name', 'Debit': 'debit', 'Credit': 'credit', 'Balance': 'balance'}
+2025-09-18 08:03:48,562 - financial_automation.validation - ERROR - Validation process failed: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-09-18 08:03:48,574 - financial_automation.audit - INFO - Audit record saved: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\audit\audit_f325e0e3-1346-4cab-a1c3-ff57ee847195_20250918_080348.json
+2025-09-18 08:03:48,574 - financial_automation.audit - INFO - Audit session ended: f325e0e3-1346-4cab-a1c3-ff57ee847195 with status failed
+2025-09-18 08:03:48,597 - financial_automation.audit - INFO - Audit session started: f1e51442-72d0-4be6-b3ac-479c5623621e for user: demo_user
+2025-09-18 08:03:48,598 - financial_automation.workflow - INFO - Starting workflow for file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_service_solutions_llc.xlsx (Session: f1e51442-72d0-4be6-b3ac-479c5623621e)
+2025-09-18 08:03:48,598 - financial_automation.security - INFO - File security scan passed: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_service_solutions_llc.xlsx
+2025-09-18 08:03:48,599 - financial_automation.ingestion - INFO - Processing file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_service_solutions_llc.xlsx
+2025-09-18 08:03:48,599 - financial_automation.ingestion - INFO - Extracting data from Excel file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_service_solutions_llc.xlsx
+2025-09-18 08:03:48,607 - financial_automation.ingestion - INFO - Successfully extracted 16 rows from Excel file
+2025-09-18 08:03:48,608 - financial_automation.validation - INFO - Normalizing financial data
+2025-09-18 08:03:48,609 - financial_automation.validation - INFO - Column mapping applied: {'Account': 'account_name', 'Account_Type': 'account_name', 'Debit': 'debit', 'Credit': 'credit', 'Balance': 'balance'}
+2025-09-18 08:03:48,611 - financial_automation.validation - ERROR - Validation process failed: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-09-18 08:03:48,614 - financial_automation.audit - INFO - Audit record saved: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\audit\audit_f1e51442-72d0-4be6-b3ac-479c5623621e_20250918_080348.json
+2025-09-18 08:03:48,614 - financial_automation.audit - INFO - Audit session ended: f1e51442-72d0-4be6-b3ac-479c5623621e with status failed
+2025-09-18 08:08:42,935 - financial_automation.main - INFO - Initializing Financial Statement Automation System...
+2025-09-18 08:08:42,935 - financial_automation.workflow - INFO - Financial Workflow System initializing...
+2025-09-18 08:08:42,935 - financial_automation.security - INFO - Encryption initialized successfully
+2025-09-18 08:08:42,935 - financial_automation.workflow - INFO - Security agent initialized
+2025-09-18 08:08:42,935 - financial_automation.workflow - INFO - Ingestion agent initialized
+2025-09-18 08:08:42,935 - financial_automation.workflow - INFO - Validation agent initialized
+2025-09-18 08:08:42,935 - financial_automation.template - INFO - Template initialization complete - 4 templates available
+2025-09-18 08:08:42,935 - financial_automation.workflow - INFO - Template agent initialized
+2025-09-18 08:08:42,935 - financial_automation.workflow - INFO - Output agent initialized
+2025-09-18 08:08:42,935 - financial_automation.workflow - INFO - Audit agent initialized
+2025-09-18 08:08:42,935 - financial_automation.workflow - INFO - Workflow system initialization completed
+2025-09-18 08:08:42,935 - financial_automation.main - INFO - Workflow system initialized
+2025-09-18 08:08:42,935 - financial_automation.main - INFO - Data generator initialized
+2025-09-18 08:08:42,935 - financial_automation.main - INFO - System initialization completed successfully
+2025-09-18 08:08:42,979 - financial_automation.main - INFO - Creating sample datasets...
+2025-09-18 08:08:42,979 - financial_automation.data_generator - INFO - Generated trial balance with 26 accounts for TechStart Inc
+2025-09-18 08:08:43,016 - financial_automation.data_generator - INFO - Generated balance sheet data for TechStart Inc
+2025-09-18 08:08:43,024 - financial_automation.data_generator - INFO - Generated income statement data for TechStart Inc
+2025-09-18 08:08:43,042 - financial_automation.data_generator - INFO - Generated cash flow data for TechStart Inc
+2025-09-18 08:08:43,049 - financial_automation.data_generator - INFO - Generated trial balance with 45 accounts for Manufacturing Corp
+2025-09-18 08:08:43,080 - financial_automation.data_generator - INFO - Generated balance sheet data for Manufacturing Corp
+2025-09-18 08:08:43,091 - financial_automation.data_generator - INFO - Generated income statement data for Manufacturing Corp
+2025-09-18 08:08:43,099 - financial_automation.data_generator - INFO - Generated cash flow data for Manufacturing Corp
+2025-09-18 08:08:43,110 - financial_automation.data_generator - INFO - Generated trial balance with 66 accounts for Service Solutions LLC
+2025-09-18 08:08:43,142 - financial_automation.data_generator - INFO - Generated balance sheet data for Service Solutions LLC
+2025-09-18 08:08:43,147 - financial_automation.data_generator - INFO - Generated income statement data for Service Solutions LLC
+2025-09-18 08:08:43,158 - financial_automation.data_generator - INFO - Generated cash flow data for Service Solutions LLC
+2025-09-18 08:08:43,176 - financial_automation.data_generator - INFO - Generated trial balance with 58 accounts for Mixed Data Corp
+2025-09-18 08:08:43,176 - financial_automation.data_generator - INFO - Created 13 sample datasets
+2025-09-18 08:08:43,207 - financial_automation.audit - INFO - Audit session started: 9c2ee566-c481-4824-8df8-611bdbe90bae for user: demo_user
+2025-09-18 08:08:43,207 - financial_automation.workflow - INFO - Starting workflow for file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_manufacturing_corp.xlsx (Session: 9c2ee566-c481-4824-8df8-611bdbe90bae)
+2025-09-18 08:08:43,208 - financial_automation.security - INFO - File security scan passed: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_manufacturing_corp.xlsx
+2025-09-18 08:08:43,208 - financial_automation.ingestion - INFO - Processing file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_manufacturing_corp.xlsx
+2025-09-18 08:08:43,209 - financial_automation.ingestion - INFO - Extracting data from Excel file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_manufacturing_corp.xlsx
+2025-09-18 08:08:43,217 - financial_automation.ingestion - INFO - Successfully extracted 16 rows from Excel file
+2025-09-18 08:08:43,217 - financial_automation.validation - INFO - Normalizing financial data
+2025-09-18 08:08:43,217 - financial_automation.validation - INFO - Column mapping applied: {'Account': 'account_name', 'Account_Type': 'type', 'Debit': 'debit', 'Credit': 'credit', 'Balance': 'balance'}
+2025-09-18 08:08:43,225 - financial_automation.validation - INFO - Normalized 16 financial records
+2025-09-18 08:08:43,225 - financial_automation.validation - INFO - Validating financial records
+2025-09-18 08:08:43,226 - financial_automation.validation - INFO - Validation complete: FAILED - 1 errors, 0 warnings
+2025-09-18 08:08:43,226 - financial_automation.validation - INFO - Data validation process completed successfully
+2025-09-18 08:08:43,226 - financial_automation.template - INFO - Mapping data to template: balance_sheet.md
+2025-09-18 08:08:43,226 - financial_automation.template - INFO - Template data mapping completed for balance_sheet.md
+2025-09-18 08:08:43,249 - financial_automation.template - INFO - Financial statement generated successfully using balance_sheet.md
+2025-09-18 08:08:43,249 - financial_automation.output - INFO - Markdown file generated: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\output\balance_sheet_manufacturing_corp_20250918_080843.md
+2025-09-18 08:08:43,253 - financial_automation.output - INFO - HTML file generated: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\output\balance_sheet_manufacturing_corp_20250918_080843.html
+2025-09-18 08:08:43,258 - financial_automation.output - ERROR - Excel generation failed: 'MergedCell' object has no attribute 'column_letter'
+2025-09-18 08:08:43,259 - financial_automation.output - INFO - JSON file generated: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\output\balance_sheet_manufacturing_corp_20250918_080843.json
+2025-09-18 08:08:43,327 - financial_automation.output - INFO - Output package created: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\output\balance_sheet_manufacturing_corp_20250918_080843_package.zip
+2025-09-18 08:08:43,327 - financial_automation.audit - INFO - Audit record saved: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\audit\audit_9c2ee566-c481-4824-8df8-611bdbe90bae_20250918_080843.json
+2025-09-18 08:08:43,327 - financial_automation.audit - INFO - Audit session ended: 9c2ee566-c481-4824-8df8-611bdbe90bae with status completed
+2025-09-18 08:08:43,327 - financial_automation.workflow - INFO - Workflow completed successfully for session 9c2ee566-c481-4824-8df8-611bdbe90bae
+2025-09-18 08:08:43,345 - financial_automation.audit - INFO - Audit session started: b205aa29-af76-48d3-9533-f0a464b02ced for user: demo_user
+2025-09-18 08:08:43,346 - financial_automation.workflow - INFO - Starting workflow for file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_service_solutions_llc.xlsx (Session: b205aa29-af76-48d3-9533-f0a464b02ced)
+2025-09-18 08:08:43,347 - financial_automation.security - INFO - File security scan passed: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_service_solutions_llc.xlsx
+2025-09-18 08:08:43,347 - financial_automation.ingestion - INFO - Processing file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_service_solutions_llc.xlsx
+2025-09-18 08:08:43,347 - financial_automation.ingestion - INFO - Extracting data from Excel file: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\data\sample\balance_sheet_service_solutions_llc.xlsx
+2025-09-18 08:08:43,357 - financial_automation.ingestion - INFO - Successfully extracted 16 rows from Excel file
+2025-09-18 08:08:43,357 - financial_automation.validation - INFO - Normalizing financial data
+2025-09-18 08:08:43,357 - financial_automation.validation - INFO - Column mapping applied: {'Account': 'account_name', 'Account_Type': 'type', 'Debit': 'debit', 'Credit': 'credit', 'Balance': 'balance'}
+2025-09-18 08:08:43,363 - financial_automation.validation - INFO - Normalized 16 financial records
+2025-09-18 08:08:43,363 - financial_automation.validation - INFO - Validating financial records
+2025-09-18 08:08:43,363 - financial_automation.validation - INFO - Validation complete: FAILED - 1 errors, 0 warnings
+2025-09-18 08:08:43,363 - financial_automation.validation - INFO - Data validation process completed successfully
+2025-09-18 08:08:43,365 - financial_automation.template - INFO - Mapping data to template: balance_sheet.md
+2025-09-18 08:08:43,365 - financial_automation.template - INFO - Template data mapping completed for balance_sheet.md
+2025-09-18 08:08:43,381 - financial_automation.template - INFO - Financial statement generated successfully using balance_sheet.md
+2025-09-18 08:08:43,384 - financial_automation.output - INFO - Markdown file generated: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\output\balance_sheet_service_solutions_llc_20250918_080843.md
+2025-09-18 08:08:43,385 - financial_automation.output - INFO - HTML file generated: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\output\balance_sheet_service_solutions_llc_20250918_080843.html
+2025-09-18 08:08:43,390 - financial_automation.output - ERROR - Excel generation failed: 'MergedCell' object has no attribute 'column_letter'
+2025-09-18 08:08:43,394 - financial_automation.output - INFO - JSON file generated: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\output\balance_sheet_service_solutions_llc_20250918_080843.json
+2025-09-18 08:08:43,416 - financial_automation.output - INFO - Output package created: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\output\balance_sheet_service_solutions_llc_20250918_080843_package.zip
+2025-09-18 08:08:43,418 - financial_automation.audit - INFO - Audit record saved: C:\Users\Saroj Dhiman\OneDrive\Desktop\done\audit\audit_b205aa29-af76-48d3-9533-f0a464b02ced_20250918_080843.json
+2025-09-18 08:08:43,418 - financial_automation.audit - INFO - Audit session ended: b205aa29-af76-48d3-9533-f0a464b02ced with status completed
+2025-09-18 08:08:43,418 - financial_automation.workflow - INFO - Workflow completed successfully for session b205aa29-af76-48d3-9533-f0a464b02ced
+2025-09-18 08:10:23,991 - financial_automation.workflow - INFO - Financial Workflow System initializing...
+2025-09-18 08:10:23,991 - financial_automation.security - WARNING - Encryption not available or disabled
+2025-09-18 08:10:23,994 - financial_automation.workflow - INFO - Security agent initialized
+2025-09-18 08:10:23,995 - financial_automation.workflow - INFO - Ingestion agent initialized
+2025-09-18 08:10:23,995 - financial_automation.workflow - INFO - Validation agent initialized
+2025-09-18 08:10:23,996 - financial_automation.template - INFO - Template initialization complete - 4 templates available
+2025-09-18 08:10:23,996 - financial_automation.workflow - INFO - Template agent initialized
+2025-09-18 08:10:23,997 - financial_automation.workflow - INFO - Output agent initialized
+2025-09-18 08:10:23,997 - financial_automation.workflow - INFO - Audit agent initialized
+2025-09-18 08:10:23,998 - financial_automation.workflow - INFO - Workflow system initialization completed
+2025-09-18 08:15:26,266 - financial_automation.workflow - INFO - Financial Workflow System initializing...
+2025-09-18 08:15:26,277 - financial_automation.security - WARNING - Encryption not available or disabled
+2025-09-18 08:15:26,277 - financial_automation.workflow - INFO - Security agent initialized
+2025-09-18 08:15:26,277 - financial_automation.workflow - INFO - Ingestion agent initialized
+2025-09-18 08:15:26,277 - financial_automation.workflow - INFO - Validation agent initialized
+2025-09-18 08:15:26,278 - financial_automation.template - INFO - Template initialization complete - 4 templates available
+2025-09-18 08:15:26,279 - financial_automation.workflow - INFO - Template agent initialized
+2025-09-18 08:15:26,279 - financial_automation.workflow - INFO - Output agent initialized
+2025-09-18 08:15:26,279 - financial_automation.workflow - INFO - Audit agent initialized
+2025-09-18 08:15:26,280 - financial_automation.workflow - INFO - Workflow system initialization completed
+2025-09-18 09:59:12,027 - financial_automation.workflow - INFO - Financial Workflow System initializing...
+2025-09-18 09:59:12,028 - financial_automation.security - WARNING - Encryption not available or disabled
+2025-09-18 09:59:12,028 - financial_automation.workflow - INFO - Security agent initialized
+2025-09-18 09:59:12,028 - financial_automation.workflow - INFO - Ingestion agent initialized
+2025-09-18 09:59:12,029 - financial_automation.workflow - INFO - Validation agent initialized
+2025-09-18 09:59:12,031 - financial_automation.template - INFO - Template initialization complete - 4 templates available
+2025-09-18 09:59:12,031 - financial_automation.workflow - INFO - Template agent initialized
+2025-09-18 09:59:12,031 - financial_automation.workflow - INFO - Output agent initialized
+2025-09-18 09:59:12,032 - financial_automation.workflow - INFO - Audit agent initialized
+2025-09-18 09:59:12,032 - financial_automation.workflow - INFO - Workflow system initialization completed
+2025-09-18 10:00:30,701 - financial_automation.data_generator - INFO - Generated trial balance with 26 accounts for TechStart Inc
+2025-09-18 10:00:30,803 - financial_automation.data_generator - INFO - Generated balance sheet data for TechStart Inc
+2025-09-18 10:00:30,822 - financial_automation.data_generator - INFO - Generated income statement data for TechStart Inc
+2025-09-18 10:00:30,855 - financial_automation.data_generator - INFO - Generated cash flow data for TechStart Inc
+2025-09-18 10:00:30,876 - financial_automation.data_generator - INFO - Generated trial balance with 45 accounts for Manufacturing Corp
+2025-09-18 10:00:30,905 - financial_automation.data_generator - INFO - Generated balance sheet data for Manufacturing Corp
+2025-09-18 10:00:30,921 - financial_automation.data_generator - INFO - Generated income statement data for Manufacturing Corp
+2025-09-18 10:00:30,939 - financial_automation.data_generator - INFO - Generated cash flow data for Manufacturing Corp
+2025-09-18 10:00:30,947 - financial_automation.data_generator - INFO - Generated trial balance with 66 accounts for Service Solutions LLC
+2025-09-18 10:00:30,993 - financial_automation.data_generator - INFO - Generated balance sheet data for Service Solutions LLC
+2025-09-18 10:00:31,006 - financial_automation.data_generator - INFO - Generated income statement data for Service Solutions LLC
+2025-09-18 10:00:31,034 - financial_automation.data_generator - INFO - Generated cash flow data for Service Solutions LLC
+2025-09-18 10:00:31,048 - financial_automation.data_generator - INFO - Generated trial balance with 58 accounts for Mixed Data Corp
+2025-09-18 10:00:31,066 - financial_automation.data_generator - INFO - Created 13 sample datasets
+2025-09-18 10:01:43,818 - financial_automation.data_generator - INFO - Generated trial balance with 26 accounts for TechStart Inc
+2025-09-18 10:01:43,863 - financial_automation.data_generator - INFO - Generated balance sheet data for TechStart Inc
+2025-09-18 10:01:43,883 - financial_automation.data_generator - INFO - Generated income statement data for TechStart Inc
+2025-09-18 10:01:43,901 - financial_automation.data_generator - INFO - Generated cash flow data for TechStart Inc
+2025-09-18 10:01:43,920 - financial_automation.data_generator - INFO - Generated trial balance with 45 accounts for Manufacturing Corp
+2025-09-18 10:01:43,961 - financial_automation.data_generator - INFO - Generated balance sheet data for Manufacturing Corp
+2025-09-18 10:01:43,979 - financial_automation.data_generator - INFO - Generated income statement data for Manufacturing Corp
+2025-09-18 10:01:44,000 - financial_automation.data_generator - INFO - Generated cash flow data for Manufacturing Corp
+2025-09-18 10:01:44,015 - financial_automation.data_generator - INFO - Generated trial balance with 66 accounts for Service Solutions LLC
+2025-09-18 10:01:44,050 - financial_automation.data_generator - INFO - Generated balance sheet data for Service Solutions LLC
+2025-09-18 10:01:44,067 - financial_automation.data_generator - INFO - Generated income statement data for Service Solutions LLC
+2025-09-18 10:01:44,084 - financial_automation.data_generator - INFO - Generated cash flow data for Service Solutions LLC
+2025-09-18 10:01:44,095 - financial_automation.data_generator - INFO - Generated trial balance with 58 accounts for Mixed Data Corp
+2025-09-18 10:01:44,109 - financial_automation.data_generator - INFO - Created 13 sample datasets
+2025-09-18 10:19:03,417 - financial_automation.workflow - INFO - Financial Workflow System initializing...
+2025-09-18 10:19:03,417 - financial_automation.security - WARNING - Encryption not available or disabled
+2025-09-18 10:19:03,417 - financial_automation.workflow - INFO - Security agent initialized
+2025-09-18 10:19:03,417 - financial_automation.workflow - INFO - Ingestion agent initialized
+2025-09-18 10:19:03,423 - financial_automation.workflow - INFO - Validation agent initialized
+2025-09-18 10:19:03,425 - financial_automation.template - INFO - Template initialization complete - 4 templates available
+2025-09-18 10:19:03,425 - financial_automation.workflow - INFO - Template agent initialized
+2025-09-18 10:19:03,426 - financial_automation.workflow - INFO - Output agent initialized
+2025-09-18 10:19:03,428 - financial_automation.workflow - INFO - Audit agent initialized
+2025-09-18 10:19:03,429 - financial_automation.workflow - INFO - Workflow system initialization completed
+2025-09-18 10:19:03,429 - __main__ - INFO - System initialized successfully
+2025-09-18 10:19:26,574 - __main__ - ERROR - Processing error: st.session_state has no attribute "workflow". Did you forget to initialize it? More info: https://docs.streamlit.io/library/advanced-features/session-state#initialization
+2025-09-18 10:19:26,576 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\Saroj Dhiman\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 398, in __getitem__
+    return self._getitem(widget_id, key)
+  File "C:\Users\Saroj Dhiman\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 443, in _getitem
+    raise KeyError
+KeyError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Saroj Dhiman\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 119, in __getattr__
+    return self[key]
+  File "C:\Users\Saroj Dhiman\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 90, in __getitem__
+    return get_session_state()[key]
+  File "C:\Users\Saroj Dhiman\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\safe_session_state.py", line 91, in __getitem__
+    return self._state[key]
+  File "C:\Users\Saroj Dhiman\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 400, in __getitem__
+    raise KeyError(_missing_key_error_message(key))
+KeyError: 'st.session_state has no key "workflow". Did you forget to initialize it? More info: https://docs.streamlit.io/library/advanced-features/session-state#initialization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Saroj Dhiman\OneDrive\Desktop\done\streamlit_app.py", line 749, in main
+    result = process_with_timeout(process_params, timeout=60)
+  File "C:\Users\Saroj Dhiman\OneDrive\Desktop\done\streamlit_app.py", line 740, in process_with_timeout
+    raise exception_queue.get()
+  File "C:\Users\Saroj Dhiman\OneDrive\Desktop\done\streamlit_app.py", line 721, in worker
+    result = st.session_state.workflow.process_file(**process_params)
+  File "C:\Users\Saroj Dhiman\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 121, in __getattr__
+    raise AttributeError(_missing_attr_error_message(key))
+AttributeError: st.session_state has no attribute "workflow". Did you forget to initialize it? More info: https://docs.streamlit.io/library/advanced-features/session-state#initialization
+
+2025-09-18 10:19:26,579 - __main__ - INFO - Cleaned up temp file: temp\20250918_101926_558137_cash_flow_manufacturing_corp.xlsx
